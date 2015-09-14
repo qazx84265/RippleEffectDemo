@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC30F0C31BA67B0E00EE0BF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC30F0C21BA67B0E00EE0BF6 /* main.m */; };
+		EC30F0C61BA67B0E00EE0BF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC30F0C51BA67B0E00EE0BF6 /* AppDelegate.m */; };
+		EC30F0C91BA67B0E00EE0BF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC30F0C81BA67B0E00EE0BF6 /* ViewController.m */; };
+		EC30F0CC1BA67B0E00EE0BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC30F0CA1BA67B0E00EE0BF6 /* Main.storyboard */; };
+		EC30F0CE1BA67B0E00EE0BF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC30F0CD1BA67B0E00EE0BF6 /* Images.xcassets */; };
+		EC30F0D11BA67B0E00EE0BF6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC30F0CF1BA67B0E00EE0BF6 /* LaunchScreen.xib */; };
+		EC30F0DD1BA67B0E00EE0BF6 /* RippleEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC30F0DC1BA67B0E00EE0BF6 /* RippleEffectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC30F0D71BA67B0E00EE0BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC30F0B51BA67B0E00EE0BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC30F0BC1BA67B0E00EE0BF6;
+			remoteInfo = RippleEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC30F0BD1BA67B0E00EE0BF6 /* RippleEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RippleEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC30F0C11BA67B0E00EE0BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC30F0C21BA67B0E00EE0BF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC30F0C41BA67B0E00EE0BF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC30F0C51BA67B0E00EE0BF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC30F0C71BA67B0E00EE0BF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC30F0C81BA67B0E00EE0BF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC30F0CB1BA67B0E00EE0BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC30F0CD1BA67B0E00EE0BF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC30F0D01BA67B0E00EE0BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC30F0D61BA67B0E00EE0BF6 /* RippleEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC30F0DB1BA67B0E00EE0BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC30F0DC1BA67B0E00EE0BF6 /* RippleEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RippleEffectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC30F0BA1BA67B0E00EE0BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC30F0D31BA67B0E00EE0BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC30F0B41BA67B0E00EE0BF6 = {
+			isa = PBXGroup;
+			children = (
+				EC30F0BF1BA67B0E00EE0BF6 /* RippleEffect */,
+				EC30F0D91BA67B0E00EE0BF6 /* RippleEffectTests */,
+				EC30F0BE1BA67B0E00EE0BF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC30F0BE1BA67B0E00EE0BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC30F0BD1BA67B0E00EE0BF6 /* RippleEffect.app */,
+				EC30F0D61BA67B0E00EE0BF6 /* RippleEffectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC30F0BF1BA67B0E00EE0BF6 /* RippleEffect */ = {
+			isa = PBXGroup;
+			children = (
+				EC30F0C41BA67B0E00EE0BF6 /* AppDelegate.h */,
+				EC30F0C51BA67B0E00EE0BF6 /* AppDelegate.m */,
+				EC30F0C71BA67B0E00EE0BF6 /* ViewController.h */,
+				EC30F0C81BA67B0E00EE0BF6 /* ViewController.m */,
+				EC30F0CA1BA67B0E00EE0BF6 /* Main.storyboard */,
+				EC30F0CD1BA67B0E00EE0BF6 /* Images.xcassets */,
+				EC30F0CF1BA67B0E00EE0BF6 /* LaunchScreen.xib */,
+				EC30F0C01BA67B0E00EE0BF6 /* Supporting Files */,
+			);
+			path = RippleEffect;
+			sourceTree = "<group>";
+		};
+		EC30F0C01BA67B0E00EE0BF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC30F0C11BA67B0E00EE0BF6 /* Info.plist */,
+				EC30F0C21BA67B0E00EE0BF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC30F0D91BA67B0E00EE0BF6 /* RippleEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC30F0DC1BA67B0E00EE0BF6 /* RippleEffectTests.m */,
+				EC30F0DA1BA67B0E00EE0BF6 /* Supporting Files */,
+			);
+			path = RippleEffectTests;
+			sourceTree = "<group>";
+		};
+		EC30F0DA1BA67B0E00EE0BF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC30F0DB1BA67B0E00EE0BF6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC30F0BC1BA67B0E00EE0BF6 /* RippleEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC30F0E01BA67B0E00EE0BF6 /* Build configuration list for PBXNativeTarget "RippleEffect" */;
+			buildPhases = (
+				EC30F0B91BA67B0E00EE0BF6 /* Sources */,
+				EC30F0BA1BA67B0E00EE0BF6 /* Frameworks */,
+				EC30F0BB1BA67B0E00EE0BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RippleEffect;
+			productName = RippleEffect;
+			productReference = EC30F0BD1BA67B0E00EE0BF6 /* RippleEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC30F0D51BA67B0E00EE0BF6 /* RippleEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC30F0E31BA67B0E00EE0BF6 /* Build configuration list for PBXNativeTarget "RippleEffectTests" */;
+			buildPhases = (
+				EC30F0D21BA67B0E00EE0BF6 /* Sources */,
+				EC30F0D31BA67B0E00EE0BF6 /* Frameworks */,
+				EC30F0D41BA67B0E00EE0BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC30F0D81BA67B0E00EE0BF6 /* PBXTargetDependency */,
+			);
+			name = RippleEffectTests;
+			productName = RippleEffectTests;
+			productReference = EC30F0D61BA67B0E00EE0BF6 /* RippleEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC30F0B51BA67B0E00EE0BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = com.pureLake;
+				TargetAttributes = {
+					EC30F0BC1BA67B0E00EE0BF6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EC30F0D51BA67B0E00EE0BF6 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EC30F0BC1BA67B0E00EE0BF6;
+					};
+				};
+			};
+			buildConfigurationList = EC30F0B81BA67B0E00EE0BF6 /* Build configuration list for PBXProject "RippleEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC30F0B41BA67B0E00EE0BF6;
+			productRefGroup = EC30F0BE1BA67B0E00EE0BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC30F0BC1BA67B0E00EE0BF6 /* RippleEffect */,
+				EC30F0D51BA67B0E00EE0BF6 /* RippleEffectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC30F0BB1BA67B0E00EE0BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC30F0CC1BA67B0E00EE0BF6 /* Main.storyboard in Resources */,
+				EC30F0D11BA67B0E00EE0BF6 /* LaunchScreen.xib in Resources */,
+				EC30F0CE1BA67B0E00EE0BF6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC30F0D41BA67B0E00EE0BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC30F0B91BA67B0E00EE0BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC30F0C91BA67B0E00EE0BF6 /* ViewController.m in Sources */,
+				EC30F0C61BA67B0E00EE0BF6 /* AppDelegate.m in Sources */,
+				EC30F0C31BA67B0E00EE0BF6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC30F0D21BA67B0E00EE0BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC30F0DD1BA67B0E00EE0BF6 /* RippleEffectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC30F0D81BA67B0E00EE0BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC30F0BC1BA67B0E00EE0BF6 /* RippleEffect */;
+			targetProxy = EC30F0D71BA67B0E00EE0BF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC30F0CA1BA67B0E00EE0BF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC30F0CB1BA67B0E00EE0BF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC30F0CF1BA67B0E00EE0BF6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC30F0D01BA67B0E00EE0BF6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC30F0DE1BA67B0E00EE0BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC30F0DF1BA67B0E00EE0BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC30F0E11BA67B0E00EE0BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RippleEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC30F0E21BA67B0E00EE0BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RippleEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC30F0E41BA67B0E00EE0BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RippleEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RippleEffect.app/RippleEffect";
+			};
+			name = Debug;
+		};
+		EC30F0E51BA67B0E00EE0BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RippleEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RippleEffect.app/RippleEffect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC30F0B81BA67B0E00EE0BF6 /* Build configuration list for PBXProject "RippleEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC30F0DE1BA67B0E00EE0BF6 /* Debug */,
+				EC30F0DF1BA67B0E00EE0BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC30F0E01BA67B0E00EE0BF6 /* Build configuration list for PBXNativeTarget "RippleEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC30F0E11BA67B0E00EE0BF6 /* Debug */,
+				EC30F0E21BA67B0E00EE0BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC30F0E31BA67B0E00EE0BF6 /* Build configuration list for PBXNativeTarget "RippleEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC30F0E41BA67B0E00EE0BF6 /* Debug */,
+				EC30F0E51BA67B0E00EE0BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC30F0B51BA67B0E00EE0BF6 /* Project object */;
+}
