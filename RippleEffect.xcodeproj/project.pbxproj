@@ -14,6 +14,8 @@
 		EC30F0CE1BA67B0E00EE0BF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC30F0CD1BA67B0E00EE0BF6 /* Images.xcassets */; };
 		EC30F0D11BA67B0E00EE0BF6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC30F0CF1BA67B0E00EE0BF6 /* LaunchScreen.xib */; };
 		EC30F0DD1BA67B0E00EE0BF6 /* RippleEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC30F0DC1BA67B0E00EE0BF6 /* RippleEffectTests.m */; };
+		EC30F0E71BA67C7D00EE0BF6 /* water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC30F0E61BA67C7D00EE0BF6 /* water.jpg */; };
+		EC30F0EA1BA67D5800EE0BF6 /* RippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC30F0E91BA67D5800EE0BF6 /* RippleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		EC30F0D61BA67B0E00EE0BF6 /* RippleEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC30F0DB1BA67B0E00EE0BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC30F0DC1BA67B0E00EE0BF6 /* RippleEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RippleEffectTests.m; sourceTree = "<group>"; };
+		EC30F0E61BA67C7D00EE0BF6 /* water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = water.jpg; sourceTree = "<group>"; };
+		EC30F0E81BA67D5800EE0BF6 /* RippleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleView.h; sourceTree = "<group>"; };
+		EC30F0E91BA67D5800EE0BF6 /* RippleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,8 @@
 				EC30F0CD1BA67B0E00EE0BF6 /* Images.xcassets */,
 				EC30F0CF1BA67B0E00EE0BF6 /* LaunchScreen.xib */,
 				EC30F0C01BA67B0E00EE0BF6 /* Supporting Files */,
+				EC30F0E81BA67D5800EE0BF6 /* RippleView.h */,
+				EC30F0E91BA67D5800EE0BF6 /* RippleView.m */,
 			);
 			path = RippleEffect;
 			sourceTree = "<group>";
@@ -96,6 +103,7 @@
 		EC30F0C01BA67B0E00EE0BF6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EC30F0E61BA67C7D00EE0BF6 /* water.jpg */,
 				EC30F0C11BA67B0E00EE0BF6 /* Info.plist */,
 				EC30F0C21BA67B0E00EE0BF6 /* main.m */,
 			);
@@ -202,6 +210,7 @@
 				EC30F0CC1BA67B0E00EE0BF6 /* Main.storyboard in Resources */,
 				EC30F0D11BA67B0E00EE0BF6 /* LaunchScreen.xib in Resources */,
 				EC30F0CE1BA67B0E00EE0BF6 /* Images.xcassets in Resources */,
+				EC30F0E71BA67C7D00EE0BF6 /* water.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +230,7 @@
 			files = (
 				EC30F0C91BA67B0E00EE0BF6 /* ViewController.m in Sources */,
 				EC30F0C61BA67B0E00EE0BF6 /* AppDelegate.m in Sources */,
+				EC30F0EA1BA67D5800EE0BF6 /* RippleView.m in Sources */,
 				EC30F0C31BA67B0E00EE0BF6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RippleEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RippleEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +430,7 @@
 				EC30F0E21BA67B0E00EE0BF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC30F0E31BA67B0E00EE0BF6 /* Build configuration list for PBXNativeTarget "RippleEffectTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				EC30F0E51BA67B0E00EE0BF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
