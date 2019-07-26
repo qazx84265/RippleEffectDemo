@@ -1,6 +1,6 @@
 
-#ifndef dy_xlog_v2_h
-#define dy_xlog_v2_h
+#ifndef dyxlog_h
+#define dyxlog_h
 
 #include <stdint.h>
 
