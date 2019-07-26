@@ -1,12 +1,12 @@
 ﻿//
-//  dy_mas_v1.cpp
+//  dymas.cpp
 //  IDADemo
 //
 //  Created by  on 2018/7/16.
 //  Copyright © 2018年 . All rights reserved.
 //
 
-#include "dy_mas_v1.h"
+#include "dymas.h"
 #include "idaDef.h"
 
 #include <stdint.h>
