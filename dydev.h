@@ -5,8 +5,8 @@
 //  Created by  on 2018/3/23.
 //
 
-#ifndef dy_dev_reg_body_h
-#define dy_dev_reg_body_h
+#ifndef dydev_h
+#define dydev_h
 
 #include <stdint.h>
 
