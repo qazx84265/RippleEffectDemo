@@ -1,5 +1,5 @@
-#include "dy_xlog_v2.h"
-#include "dy_mas_v2.h"
+#include "dyxlog.h"
+#include "dymas.h"
 #include "idadef.h"
 #include "tool.h"
 
@@ -1897,7 +1897,7 @@ uint32_t sub_1019F3238(uint32_t a1)
 	return *(uint32_t *)v2;
 }
 
-//�ֽڷ�ת
+//ﾗﾖｽﾚｷｴﾗｪ
 uint32_t sub_1019F4694(uint32_t a1)
 {
 	char *v1; // x9
